@@ -7,7 +7,7 @@ function setup() {
 function draw() {
  
   if (mouseIsPressed) {
-    stroke(100,100,0);
+    stroke(100,100,0);  //black
       fill(0,0,100);    //white
       ellipse(mouseX, mouseY, 80, 80);
   } else {
