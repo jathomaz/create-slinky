@@ -8,7 +8,7 @@ function draw() {
  
   if (mouseIsPressed) {
     stroke(100,100,0);  //black
-      fill(315,100,100);    //white
+      fill(315,100,100);    //hot pink
       ellipse(mouseX, mouseY, 80, 80);
   } else {
         noStroke();
