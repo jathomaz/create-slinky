@@ -1,7 +1,7 @@
 function setup() {
   createCanvas(480, 420);
   colorMode(HSB);
-  background(220,100,100);
+  background(220,100,100);  //blue
 }
 
 function draw() {
@@ -12,7 +12,7 @@ function draw() {
       ellipse(mouseX, mouseY, 80, 80);
   } else {
         noStroke();
-        fill(120,100,100);
+        fill(120,100,100);  //green
   }
   
 }
